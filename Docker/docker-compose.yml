@@ -1,0 +1,16 @@
+services:
+  flatcam_sone:
+    image: flatcam2024
+    build: ./build
+    container_name: flatcam_2024
+    ports:
+      - 2022:22
+      - 6901:5901
+    volumes:
+      - ./data:/data
+    restart: always
+    environment:
+      - FLATCAM_SSH_PASS="${FLATCAM_SSH_PASS}"
+      - FLATCAM_VNC_PASS="${FLATCAM_VNC_PASS}"
+
+

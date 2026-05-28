@@ -1,3 +1,6 @@
+I have added Docker stuff for easily running this
+See Docker folder
+
 # FlatCAM β (c) 2024.4
 
 ![FlatCAM β](/FlatCAM/assets/resources/flatcam_icon128.png)
