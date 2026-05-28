@@ -10,7 +10,7 @@ services:
       - ./data:/data
     restart: always
     environment:
-      - FLATCAM_SSH_PASS="${FLATCAM_SSH_PASS}"
-      - FLATCAM_VNC_PASS="${FLATCAM_VNC_PASS}"
+      - FLATCAM_SSH_PASS=${FLATCAM_SSH_PASS}
+      - FLATCAM_VNC_PASS=${FLATCAM_VNC_PASS}
 
 
